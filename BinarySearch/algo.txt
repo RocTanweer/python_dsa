@@ -1,0 +1,12 @@
+Steps to use Binary Search Algorithm:
+
+1. Sort the array(ascending order in this case)
+2. Get the middle element of the array.
+3. Three cases arrive:
+    3.1. The middle element is the query element.
+        Simply return the element.
+    3.2. The middle element is greter than query element.
+        Take the first half of the array as the new array and go to step 2
+    3.3. The middle element is less than query element.
+        Take the second half of the array as the new array and go to step 2
+4. keep doing step 2 and step 3 as long as first index <= last index
