@@ -7,14 +7,14 @@ class Node:
         self.next = next
 
 
-# d = Node('d')  # Pointing to None (meaning last node of the list(tail node))
-c = Node('c')  # Having value of 'C' and pointing to next node d
+d = Node('d')  # Pointing to None (meaning last node of the list(tail node))
+c = Node('c', d)  # Having value of 'C' and pointing to next node d
 b = Node('b', c)
 a = Node('a', b)
 
 
-D = Node('D')  # Pointing to None (meaning last node of the list(tail node))
-C = Node('C', D)  # Having value of 'C' and pointing to next node d
+# D = Node('D')  # Pointing to None (meaning last node of the list(tail node))
+C = Node('C')  # Having value of 'C' and pointing to next node d
 B = Node('B', C)
 A = Node('A', B)
 
@@ -28,7 +28,8 @@ def zipper_loop(head1, head2):
         next1 = current1.next
         next2 = current2.next
         current1.next = current2
-        current2.next = next1
+        if next1 != None:
+            current2.next = next1
         current1 = next1
         current2 = next2
 
@@ -39,4 +40,4 @@ def zipper_loop(head1, head2):
         current1 = current1.next
 
 
-zipper_loop(A, a)
+zipper_loop(a, A)
