@@ -6,7 +6,7 @@ The main idea behind this algorithm is that the first element of any array is ac
 
 ## Working
 
-Let's take arr = [a, b, c, d] as example
+Let's take arr = [a, b, c, d, e] as example
 
 I will explain the operation included in the first iteration.
 
