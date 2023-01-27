@@ -6,15 +6,12 @@ The main idea behind this algorithm is that the first element of any array is ac
 
 ## Working
 
-Let's take arr = [a, b, c, d, e] as example
-
-I will explain the operation included in the first iteration.
-
-- Assume the slice of original array containing first element (arr[0, 1]) is sorted
-- Compare the last element of sorted slice (a) with the first element of unsorted slice (b)
-- If b is less than a, take the sorted slice and find the index of first occuring element which is greater than b and insert b at that index causing all the elements to shift one step to the right. Now delete that b which is now located at one index to the right from it's original index
-- If the b is greater than the a, then don't do anything and move forward
-- Do this for all the elements
+- Start with 2nd element as current element(since slice containing 1st element is sorted)
+- Store the current element in a variable
+- Start a reverse loop starting from previous index
+- The loop will continue as long as index >= 0 and value at previous index > stored current value
+- Override the value at current index by previous value
+- After loop terminates, that's where we **insert** the stored current value
 
 Time Complexity for worst case: O(N\*\*2)
 Space Complexity for worst case: O(1)
