@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [Array](https://github.com/RocTanweer/python_dsa/tree/main/array)
+
   - [Operations](https://github.com/RocTanweer/python_dsa/tree/main/array/operations)
     - [Reversing](https://github.com/RocTanweer/python_dsa/tree/main/array/operations/reversing)
     - [Rotation](https://github.com/RocTanweer/python_dsa/tree/main/array/operations/rotation)
@@ -20,4 +21,13 @@
     - [Insertion](https://github.com/RocTanweer/python_dsa/tree/main/array/sorting/insertion)
     - [Merge](https://github.com/RocTanweer/python_dsa/tree/main/array/sorting/merge)
 
-<!-- - [Linked List]() -->
+- [Linked List]()
+  - [Operations](https://github.com/RocTanweer/python_dsa/tree/main/linkedList/operations)
+    - [find](https://github.com/RocTanweer/python_dsa/tree/main/linkedList/operations/find)
+    - [get](https://github.com/RocTanweer/python_dsa/tree/main/linkedList/operations/get)
+    - [insertions](https://github.com/RocTanweer/python_dsa/tree/main/linkedList/operations/insertion)
+    - [reversing](https://github.com/RocTanweer/python_dsa/tree/main/linkedList/operations/reversing)
+    - [sum](https://github.com/RocTanweer/python_dsa/tree/main/linkedList/operations/sum)
+    - [toArray](https://github.com/RocTanweer/python_dsa/tree/main/linkedList/operations/toArray)
+    - [traversal](https://github.com/RocTanweer/python_dsa/tree/main/linkedList/operations/traversal)
+    - [zipper](https://github.com/RocTanweer/python_dsa/tree/main/linkedList/operations/zipper)
